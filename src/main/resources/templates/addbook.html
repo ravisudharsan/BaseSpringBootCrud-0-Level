@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Add Book</h1>
+	<form:form action = "bookprocess" modelAttribute="book">
+		<form:hidden path="id"/>
+		Book Title: <form:input path="title" /><br/>
+		Book Author: <form:input path="author" /><br/>
+		<button type = "submit">Add Book</button>
+	</form:form>
+</body>
+</html>
